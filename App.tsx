@@ -16,6 +16,7 @@ import {
 
 import {Colors, Header} from 'react-native/Libraries/NewAppScreen';
 import CameraTestView from './src/components/CameraTestView';
+import AnimatedBoxView from './src/components/AnimatedBoxView';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -40,6 +41,14 @@ function App(): JSX.Element {
             height: 300,
           }}>
           <CameraTestView />
+        </View>
+
+        <View
+          style={{
+            backgroundColor: isDarkMode ? Colors.black : Colors.white,
+            height: 300,
+          }}>
+          <AnimatedBoxView />
         </View>
       </ScrollView>
     </SafeAreaView>
