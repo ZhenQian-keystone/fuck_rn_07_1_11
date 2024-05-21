@@ -37,3 +37,13 @@ System:
     *react-native*: Not Found
 
 ```
+
+# react-native-reanimated version
+
+dont use stupid react-native-reanimated@2.12.0, because it will cause crash !
+
+update to react-native-reanimated@2.17.0, it will work
+
+```bash
+npm i react-native-reanimated@2.17.0
+```
